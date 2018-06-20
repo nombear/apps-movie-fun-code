@@ -7,6 +7,11 @@ spring:
     url: jdbc:mysql://localhost:3306/movies?useSSL=false
     username: root
 
+  logging.level:
+      root: INFO
+      org.superbiz.moviefun: DEBUG
+
   mvc.view:
     prefix: /WEB-INF/
     suffix: .jsp
+
